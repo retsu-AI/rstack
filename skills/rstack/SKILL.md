@@ -17,4 +17,4 @@ Choose only the relevant leaf:
 - Source, diagram, Lean, tests or independent review: [verify](../rstack-verify/SKILL.md).
 - Recipient delivery or completion reporting: [deliver](../rstack-deliver/SKILL.md).
 
-Return a delivered result or exact dependency and resumption trigger. Do not create a competing audit, supervisor, schedule or owner. See [the feature map](../../docs/feature-map.md) for the offline helpers and their limits.
+Return a delivered result or exact dependency and resumption trigger. Do not create a competing audit, supervisor, schedule or owner. See [the feature map](../../docs/feature-map.md) for the offline helpers and their limits, and [tool workflows](../../docs/tool-workflows.md) when selecting pstack, gstack or local ClawSweeper.

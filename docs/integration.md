@@ -14,6 +14,8 @@ Use an existing installed pstack host adapter and its matching playbook when ava
 
 Rstack needs no global settings, hooks, package installation, service connection or credentials. It does not dispatch agents, schedule jobs, intercept tools or enforce a runtime security boundary. Preserve any existing plugin's responsibility.
 
+See [tool workflows](tool-workflows.md) for optional gstack and ClawSweeper use. Install only under current authority, inspect the supported host installer, preserve customized copies and licenses, and verify actual discovery and use. A Claude or Cursor installation alone does not prove Codex availability.
+
 ## Offline record checks
 
 From the rstack checkout, run the examples in [README](../README.md). For real work, check a bounded export from the existing register with `scripts/rstack.py validate`. Return its findings to the existing record owner. Do not create a competing register to satisfy the example shape. The checker assesses supplied records and cannot authenticate receipts or determine whether the original request omitted an obligation.
