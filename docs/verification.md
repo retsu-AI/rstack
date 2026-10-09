@@ -1,0 +1,13 @@
+# Exact-subject verification
+
+Freeze the subject before final review. A subject contains repository/base/head or a content revision plus a SHA-256 manifest of source, diagrams, formal sources and deliverables. Evidence references that subject and its scope. Do not bind a new specification to old diagram or Lean receipts just because filenames are unchanged.
+
+Use acceptance IDs to connect original source requirements to implementation, components/connections, diagrams, state machines, tests, review and delivery. Preserve original detail and reviewer dispositions; a condensed substitute is not the requested full specification. Use required language standards when the task names them, without imposing them on unrelated work.
+
+For diagrams, distinguish parsed text, structural correspondence and actual pixel inspection, with inspected page/view/resolution and coverage denominator. For video, report whether it was actually watched and which intervals. For Lean, bind formal sources/toolchain/command/receipt and distinguish lexical inventory, prior kernel receipt and a fresh kernel run. Count required machines, transitions, invariants, assumptions, fairness and composition obligations separately. Theorems are not machines, and checked theorems do not prove implementation correspondence. Keep partial/unproved obligations explicit.
+
+Require genuine before/after regression evidence for behavioral changes and test through the public interface. Unit/mocked tests are useful and labeled. Real-service acceptance needs the authorized real journey, qualified provider/model/configuration, useful result and relevant repeat/recovery behavior. Do not weaken tests, treat zero/skipped required tests as passing, or rerun unchanged suites for activity. No real paid-service test follows from these offline skills without applicable authority.
+
+An independent reviewer must not have authored the subject. Supply a frozen revision, raw inputs, original acceptance and permitted actions. Do not supply the intended answer or the author's conclusions to a forward-test evaluator. Record actual reviewer identity, independence evidence and model/family only when observed. New pushes or changed bytes stale the final verdict; require affected revision review. Unchanged scoped evidence may be reused with its limits, but never silently accept the whole new subject from an old review.
+
+Hosted CI on the exact head, clean mergeability/current base and independent acceptance are distinct. Merge, deployment and customer acceptance retain separate scoped gates. This repository's self-tests provide no hosted CI, service, independent-agent or product acceptance evidence.

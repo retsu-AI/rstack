@@ -1,0 +1,10 @@
+---
+name: rstack-verify
+description: Bind engineering source, diagrams, Lean, tests and genuine independent review to the exact final revision and acceptance obligations.
+---
+
+# rstack-verify
+
+Read [verification](../../docs/verification.md). Freeze one subject manifest and bind every claim to it. Distinguish text/pixel/video coverage, prior/fresh kernel evidence and unit/service/customer checks.
+
+Invalidate affected acceptance on changed bytes. Give a real non-author reviewer raw inputs and original criteria, then exercise the intended user journey when independently authorized. Local self-tests are not that verdict.

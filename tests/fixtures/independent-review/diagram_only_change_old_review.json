@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "outcome_id": "demo-parser",
+  "original_request": {
+    "ref": "fixture:request-1",
+    "summary": "Deliver the reviewed parser change and local usage evidence."
+  },
+  "approval": {
+    "ref": "fixture:approval-1",
+    "allowed_actions": [
+      "inspect",
+      "report",
+      "preserve",
+      "edit",
+      "retry",
+      "cherry_pick"
+    ],
+    "denied_actions": [
+      "send",
+      "merge",
+      "deploy"
+    ],
+    "stop": false
+  },
+  "register": {
+    "ref": "fixture:canonical-register",
+    "writer": "coordinator"
+  },
+  "owner": "worker",
+  "scope": {
+    "write_paths": [
+      "src/parser",
+      "tests/parser",
+      "docs/parser.md"
+    ]
+  },
+  "acceptance": [
+    {
+      "id": "A1",
+      "description": "Parser public behavior passes its required examples.",
+      "status": "passed",
+      "evidence_ids": [
+        "test-1"
+      ]
+    },
+    {
+      "id": "A2",
+      "description": "Independent review accepts the final package.",
+      "status": "passed",
+      "evidence_ids": [
+        "review-1"
+      ]
+    }
+  ],
+  "stop_conditions": [
+    "Stop on confirmed delivery and accepted criteria.",
+    "Stop affected operations on denial; preserve and report exact dependency."
+  ],
+  "subject": {
+    "revision": "demo-v2",
+    "manifest": {
+      "source": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "diagram": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "formal": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    },
+    "authors": [
+      "worker"
+    ],
+    "review_required": true
+  },
+  "execution": {
+    "state": "completed",
+    "task_id": "fixture:task-1",
+    "admission_receipt": "fixture:admission",
+    "action_receipt": "fixture:read-success",
+    "last_progress_at": "2026-01-01T12:04:00Z"
+  },
+  "checkpoint": {
+    "previous_at": "2026-01-01T12:00:00Z",
+    "current_at": "2026-01-01T12:05:00Z",
+    "next_action": "Report the delivered artifact.",
+    "progress_ref": "fixture:artifact-written"
+  },
+  "evidence": [
+    {
+      "id": "test-1",
+      "kind": "tests",
+      "ref": "fixture:test-log",
+      "status": "passed",
+      "revision": "demo-v2",
+      "manifest": {
+        "source": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "diagram": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+        "formal": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "executed": 8,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "id": "review-1",
+      "kind": "review",
+      "ref": "fixture:independent-verdict",
+      "status": "passed",
+      "revision": "demo-v2",
+      "manifest": {
+        "source": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "diagram": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+        "formal": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      "reviewer": "reviewer",
+      "independence_receipt": "fixture:non-author-confirmation"
+    }
+  ],
+  "delivery": {
+    "status": "delivered",
+    "receipt": "fixture:local-handoff",
+    "artifact_ref": "fixture:artifact",
+    "revision": "demo-v2",
+    "manifest": {
+      "source": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "diagram": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "formal": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    }
+  },
+  "next_action": {
+    "kind": "report",
+    "paths": []
+  },
+  "claim_status": "complete",
+  "metrics": [
+    {
+      "population": "Required parser examples",
+      "revision": "demo-v2",
+      "observed_at": "2026-01-01T12:04:00Z",
+      "numerator": 8,
+      "denominator": 8,
+      "percentage": 100
+    }
+  ]
+}
