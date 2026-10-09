@@ -1,5 +1,7 @@
 # Attribution and licensing
 
+Rstack's original source and accompanying documentation are licensed under the [MIT License](LICENSE). Third-party material retains its own attribution and rights; this license does not grant rights to excluded source material.
+
 Pstack is Lauren Tan / poteto's work, from `cursor/plugins`, source directory `pstack`. The installed snapshot declares version 0.15.15 and commit `9f451cf875ad1239912762f67741e8e5ba6ac0f1`. Its LICENSE is MIT, copyright 2026 Lauren Tan. Rstack neither renames nor replaces pstack.
 
 This repository contains newly authored workflow text and Python implementation. No pstack source code or complete playbook is copied. The upstream MIT notice is retained in [licenses/pstack-MIT.txt](licenses/pstack-MIT.txt) for attribution and any future substantial reuse; such reuse must retain its copyright and permission notice. That notice does not license the PDF or this repository's original work.
