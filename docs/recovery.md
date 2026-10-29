@@ -11,3 +11,5 @@ Restore the consolidated brief before authorized continuation. A stop/hold requi
 Preserve an existing plugin's established responsibility. Rstack does not reinstall plugins or claim runtime enforcement. When a recurring failure can be prevented in the product's types, architecture, lint or CI, propose the smallest authorized structural fix before adding another prose rule.
 
 Restore [the native goal and obligation inventory](completion-contract.md) alongside artifact state. An unknown or conflicting goal cannot be treated as absent. Recovery completion applies to its supporting outcome, not the unknown original delivery.
+
+Restore [the ordered plan](execution-plan.md), current W/V assignments, exact accepted subjects, pending findings and remaining loop budget. Reconcile surviving activation or remote jobs before replacement. Retain verifier defects as defects rather than relabeling a product failure; repair and independently review the changed verifier before relying on affected results.

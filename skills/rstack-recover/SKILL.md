@@ -10,3 +10,5 @@ Read [recovery](../../docs/recovery.md). Preserve receipts and current work befo
 Keep denial and stop gates intact. Continue independent authorized work. Return a finite recovery decision with original operation identity, observed state, relevant authority, next action and unresolved dependency.
 
 Restore [native-goal and original-obligation bindings](../../docs/completion-contract.md) without replacing a conflicting objective or inventing unsupported lifecycle operations. A completed recovery report does not close the original delivery.
+
+Restore [the plan and verifier pairs](../../docs/execution-plan.md), accepted source revisions, pending findings, remaining correction budget and integration frontier. Inspect surviving work before redispatch. Changed bytes stale affected verdicts; an interrupted verifier or an uncertain remote proof/evaluation job stays pending until its original operation is reconciled.

@@ -17,3 +17,5 @@ If create returns cancellation or an unknown error, retain operation/request ID 
 Configured connectors, child process access, actual backend binding and account scope are different facts. Read existing runtime configuration safely before proposing setup. Qualify child access when required with harmless checks; do not repeat paid inference just to check persistence. Stop at real access/authority limits and continue independent local work.
 
 Native-goal assignments use [the lifecycle contract](completion-contract.md). Read the current goal, retain compatible work, and bind any authorized creation or completion to actual readbacks. Unsupported capabilities and conflicting objectives remain explicit dependencies.
+
+For multipart work, use [the manager/verifier and worker/verifier protocol](execution-plan.md). VM first reviews M's plan and later accepts the exact combined subject. Each bounded part has a named worker and non-author verifier. A per-part verdict never substitutes for final integration acceptance. Pair roles may run in batches under actual host limits; do not create a second supervisor to satisfy the notation.

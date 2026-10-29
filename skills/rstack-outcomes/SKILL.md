@@ -10,3 +10,5 @@ Read [the outcome contract](../../docs/contract.md). Reuse the canonical record;
 Export a bounded record using [the record format](../../docs/record-format.md) only when deterministic checking helps. Run the validator with the actual observation time. A consistent record is not independent acceptance. Continue authorized work without asking for repeated instructions.
 
 Retain the approved obligation inventory and every required part using [the completion contract](../../docs/completion-contract.md). Supporting work completes only its own outcome; preserve the parent delivery and any native-goal dependency.
+
+Before multipart implementation, write [the plan and feature inventory](../../docs/execution-plan.md) using [the ordered checklist](../../templates/execution-plan.md). Include every required main feature and extension, literal acceptance and rejecting conditions, real prerequisites and independent plan review. Keep deferred scope visible.

@@ -8,3 +8,5 @@ description: Compare local engineering work with an existing branch or PR using 
 Read [reconciliation](../../docs/reconciliation.md). Preserve dirty work and authorship, then use the read-only Git helper against exact existing refs and selected files.
 
 Separate historical incorporation from current semantic acceptance. Return only the genuinely missing delta to the existing owner. No automatic cherry-pick, fetch, replacement PR, push or owner change follows from this skill.
+
+Reconcile each main feature and extension against [the integration checklist](../../docs/execution-plan.md). A passing branch report does not prove that its accepted bytes or behavior reached the combined revision. Preserve scoped evidence with explicit identity and require affected independent review after integration changes.

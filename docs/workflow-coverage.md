@@ -14,3 +14,5 @@ Rstack groups recurring engineering decisions into eight reusable skills. It pre
 | Has the result arrived? | Separate persistence, attachment, recipient readback and canonical incorporation. Report denominators and remaining obligations honestly. | [Delivery](delivery.md), [record format](record-format.md) |
 
 Product CI, release, deployment and customer acceptance remain separate. The skills do not invent unlimited usage, paid access, publication permission or authority over another owner. A coverage map describes intended practice; it does not prove an agent followed it.
+
+[The execution plan](execution-plan.md) adds explicit main features/extensions, prerequisite order, M/VM and W/V responsibilities, bounded correction and final integration acceptance. Conditional evidence guidance covers [formal obligations](formal-verification.md), [Pele diagrams](diagrams.md) and [model/harness evaluation](benchmarks.md). These are operating practices; the CLI does not enforce role independence or execute these tools.

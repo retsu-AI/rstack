@@ -11,3 +11,5 @@ Each record must name an outcome stop, a concrete dependency stop and a waiting/
 The register writer incorporates accepted deltas. Helpers return artifact paths and hashes to that writer; they do not create competing canonical ledgers. Missing history stays an accounting gap. A blocker states the exact affected action, observation/error, responsible owner and next executable step. Continue independent authorized work around it.
 
 Use [the approved completion contract](completion-contract.md) to retain original obligations and separate multipart and supporting outcomes. Restore native-goal bindings when selected; completion of a supporting record never closes its parent.
+
+For multipart engineering, prepare [the plan, explicit feature inventory and ordered checklist](execution-plan.md). Review acceptance and rejecting conditions before implementation. Include required extensions and real dependencies without inventing extra product obligations. Keep implementation, independent verification, integration and final acceptance separate.

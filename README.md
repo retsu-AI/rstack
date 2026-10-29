@@ -4,6 +4,8 @@ Reusable engineering skills for carrying an authorized request through delivered
 
 Start with [rstack](skills/rstack/SKILL.md). Load only the workflow needed for the current decision. These skills do not dispatch agents, schedule work, change permissions, or intercept tools.
 
+For multipart work, use [the plan and checklist](docs/execution-plan.md) to enumerate main features and extensions, pair workers with independent verifiers, and separately review the manager's plan and final integration. Optional evidence paths cover [Pele diagrams](docs/diagrams.md), [Lean, Aristotle and Verus](docs/formal-verification.md), and [model-versus-harness benchmarks](docs/benchmarks.md).
+
 | Decision | Skill |
 |---|---|
 | What was requested and what counts as finished? | [Outcomes](skills/rstack-outcomes/SKILL.md) |
