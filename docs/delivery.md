@@ -13,3 +13,5 @@ Finish when the finite original outcome is delivered and accepted, or report the
 Use [contract-specific handoff stages](completion-contract.md) to distinguish persistence, attachment, recipient readback, and canonical incorporation or retained disposition. Required multipart outcomes and native-goal completion/readback remain separate from artifact delivery.
 
 Return [the feature checklist](execution-plan.md) with all required main features/extensions and VM's final combined-subject verdict. Preserve open states and their resumption conditions. A reviewable local package can satisfy local delivery while live observations, remote proof runs, held-out evaluation or publication remain explicitly unperformed.
+
+Bind audience, original task and transport with [publication privacy](publication-privacy.md) before sharing. Use [correspondence and staged delivery](workflow-qualification.md#correspondence-and-staged-delivery) for sent, possession, acknowledgement and final outcome evidence.

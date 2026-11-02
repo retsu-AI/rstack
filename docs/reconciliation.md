@@ -15,3 +15,5 @@ An ancestor proves historical inclusion, not survival after a later revert. Same
 If incorporation exists, return that receipt and the genuinely missing delta to the existing owner. Do not duplicate the cherry-pick or open a replacement draft. If uncertain, identify the exact missing ref/source or authorized remote read needed. Keep source incorporation, PR publication, hosted CI, merge, release and runtime/customer acceptance distinct.
 
 For [main features and extensions](execution-plan.md), name the accepted part revision and the actual integrated revision. Preserve exact unchanged evidence only within its scope. Changed integration requires affected review and combined behavior checks before VM accepts the parent outcome.
+
+Reconcile [current review findings](workflow-qualification.md#review-controls-and-finding-closure) and [canonical identity/handoffs](workflow-qualification.md#canonical-identity-and-handoff) from actual source and recipient evidence. Existing thread counts and copied lineage do not establish current defects or ownership.

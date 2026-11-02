@@ -31,3 +31,5 @@ Independently validate returned artifacts before relying on them and account for
 ## Acceptance and correction
 
 For each acceptance ID, retain the exact subject, formal statement, tool/dependency versions, command and receipt, status, assumptions/admissions, independent verdict and unproved boundary. Distinguish source inventory, an earlier proof receipt and a fresh checked run. A timeout, missing tool, unchecked output or failed proof remains visible. Return corrections to the author within the existing attempt/time budget, then rerun affected checks and independent review on the changed revision. Worker proof acceptance does not close final integration or delivery.
+
+Use [the bounded architecture/state-machine example](formal-architecture-example.md) when the criterion involves stale asynchronous work. It links editable Pele input, a small Lean model and explicit implementation correspondence gaps. Apply actual tool receipts and independent acceptance; illustrative source alone remains unobserved.

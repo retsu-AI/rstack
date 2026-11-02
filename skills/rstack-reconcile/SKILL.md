@@ -10,3 +10,5 @@ Read [reconciliation](../../docs/reconciliation.md). Preserve dirty work and aut
 Separate historical incorporation from current semantic acceptance. Return only the genuinely missing delta to the existing owner. No automatic cherry-pick, fetch, replacement PR, push or owner change follows from this skill.
 
 Reconcile each main feature and extension against [the integration checklist](../../docs/execution-plan.md). A passing branch report does not prove that its accepted bytes or behavior reached the combined revision. Preserve scoped evidence with explicit identity and require affected independent review after integration changes.
+
+For canonical identity, current review findings and acknowledged owner handoff, use the relevant section of [workflow qualification](../../docs/workflow-qualification.md). An unresolved thread or historical copy is not a unique current defect.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "RStack publication privacy"
+  short_description: "Check artifact audience before sharing"
+  default_prompt: "Use $rstack-publish-privacy to complete the scoped task with evidence and current authority."

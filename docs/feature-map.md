@@ -20,3 +20,21 @@
 The CLI never performs the action it assesses. The primary regression suite calls its public subprocess interface with literal expected decisions and uses temporary Git histories to test duplicate incorporation. These fixtures are synthetic reproductions of observed failure classes, not replays of private conversations.
 
 Plan review, role independence, proof tools, diagram rendering and benchmark execution are workflow guidance. The CLI does not dispatch these roles, authenticate their evidence or enforce the checklist fields. Structural checks and behavioral exercises must be reported separately.
+
+Company outcome coordination uses [the company operating loop](company-operations.md), [46 capability contracts](company-capabilities.md) and [the operating-unit template](../templates/company-operating-unit.md). Validate plan/part/domain/combined acceptance separately. These are workflow procedures; the CLI does not enforce them or establish company readiness.
+
+## Operational qualification
+
+| User need | Entrypoint | Observable acceptance |
+|---|---|---|
+| Share an artifact with the right audience | rstack-publish-privacy | Original task/artifact/audience/transport match; uninspected formats remain unknown |
+| Admit shared execution safely | rstack-executors | All admission paths preserve capacity, trust and ownership through verified cleanup/recovery |
+| Share an MCP service across clients | rstack-mcp | One client closing/cancelling does not end another client's service or state |
+| Accept physical keys, voice or peripherals | rstack-input | Actual press/release/reconnect and rollback evidence, separate from saved bindings |
+| Qualify mail triage and rules | rstack-mail | Full-thread classification and actual new-arrival route, with uncertainty preserved |
+| Organize tabs/groups/bookmarks | rstack-browser-library | Every scoped original and destination accounted for, one writer and drafts preserved |
+| Review account/device/runtime security | rstack-estate-security | Exact asset/applicability coverage; outdated, affected, exposed and compromised remain distinct |
+| Qualify recurring workflow decisions | [Qualification](workflow-qualification.md) | Relevant normal/rejecting controls, exact subject and independent verdict |
+| Connect system design, diagram and proof | [Formal example](formal-architecture-example.md) | Requirement-to-model/proof/implementation crosswalk, actual run states and remaining boundaries |
+
+These additions are agent procedures. Packaging checks do not prove behavior and the CLI does not enforce their acceptance. Local consumer resolution and finite synthetic decision exercises are distinct from physical devices, live services or paid proof runs.

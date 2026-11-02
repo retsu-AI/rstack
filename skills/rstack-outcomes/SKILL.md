@@ -12,3 +12,5 @@ Export a bounded record using [the record format](../../docs/record-format.md) o
 Retain the approved obligation inventory and every required part using [the completion contract](../../docs/completion-contract.md). Supporting work completes only its own outcome; preserve the parent delivery and any native-goal dependency.
 
 Before multipart implementation, write [the plan and feature inventory](../../docs/execution-plan.md) using [the ordered checklist](../../templates/execution-plan.md). Include every required main feature and extension, literal acceptance and rejecting conditions, real prerequisites and independent plan review. Keep deferred scope visible.
+
+For discovery-first plans, design-versus-implementation boundaries and staged correspondence, read the relevant section of [workflow qualification](../../docs/workflow-qualification.md). Preserve existing main features and extensions.

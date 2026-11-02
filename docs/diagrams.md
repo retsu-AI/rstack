@@ -30,3 +30,5 @@ Keep a compact evidence record with source and artifact paths/revisions, accepta
 | Visual inspection | Inspect the rendered pixels for clipping, overlap, unreadable text and misleading connections; name inspected views/pages, resolution and coverage denominator. |
 
 Record these checks separately. Text inspection does not establish pixel coverage. An SVG file that exists but was never viewed remains visually unobserved. If the requested renderer is unavailable, name that dependency and preserve its acceptance criterion as open. Return corrections to the author, rerender changed artifacts, and have the independent verifier inspect the affected result before the manager accepts the integrated package.
+
+The [formal architecture example](formal-architecture-example.md) supplies an editable flowchart and requirement-to-state/proof crosswalk. Its source existing is not a render or pixel-inspection result.

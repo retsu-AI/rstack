@@ -41,3 +41,5 @@ M incorporates independently accepted parts in dependency order and records whic
 VM separately reviews the final combined revision against every required main feature and extension, including interactions and applicable failure, concurrency, cancellation and recovery paths. Keep source review, local checks, formal claims, live runtime observations and delivery distinct. Close the original outcome only when its required checklist and delivery are accepted; otherwise identify each open part and its next executable step.
 
 The existing record validator checks its documented schema. This plan, role assignment and reviewer independence require actual evidence; a consistent exported record does not enforce or authenticate them.
+
+Apply [discovery-first planning and phase boundaries](workflow-qualification.md#planning-and-phase-boundaries). Ask only material unresolved questions after discovery. Keep authorized design moving when code does not yet exist; do not claim source-conformance acceptance for a model alone.

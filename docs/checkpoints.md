@@ -11,3 +11,5 @@ A 15-minute gap triggers diagnosis, not automatic replacement or a delivery SLA.
 Stop polling unchanged state after the bounded check. Record a resumption trigger, such as owner receipt, changed revision or existing scheduled tick. No duplicate schedule, endless retry loop or competing supervisor follows. Preserve contradictory observations with their timestamps instead of replacing them with a confident label.
 
 For [planned parts](execution-plan.md), checkpoint implemented revision, independent verdict, integrated revision, final acceptance and remaining correction budget separately. NOT OBSERVED records the natural event and bounded observation window; BLOCKED records the missing prerequisite or unusable verifier. Neither is PASS. Recommendation, delivery, application, execution and verified outcome are distinct observations.
+
+For [model uptake](workflow-qualification.md#model-selection-and-actual-adoption), [automation worthiness](workflow-qualification.md#automation-worthiness-and-recurrence) and [history activity](workflow-qualification.md#history-to-skill-review), distinguish actual events from saved configuration, rename touches and running labels.

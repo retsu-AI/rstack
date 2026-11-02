@@ -1,0 +1,4 @@
+interface:
+  display_name: "RStack physical input"
+  short_description: "Verify keys, dictation and capture behavior"
+  default_prompt: "Use $rstack-input to complete the scoped task with evidence and current authority."

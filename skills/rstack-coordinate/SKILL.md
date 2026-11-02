@@ -12,3 +12,5 @@ Verify an actual first action and then an artifact/test checkpoint. Creation, ac
 For native-goal assignments, follow [goal binding and lifecycle](../../docs/completion-contract.md). Retain the compatible goal and actual readbacks. Unavailable capability or a conflicting goal is a named dependency, not creation authority.
 
 For multipart work, apply [M/VM and bounded W/V pairs](../../docs/execution-plan.md). Obtain VM's plan verdict before dispatch, keep verifier contexts separate from authors, and return corrections to the responsible worker within a finite budget. Reuse existing owners and operation identities; queued work is not execution. Reserve VM's final combined-revision review separately from per-part acceptance.
+
+For current host/Cloud schemas, actual model adoption, replicated population reviews and finite single-owner handoffs, read [workflow qualification](../../docs/workflow-qualification.md). Select [shared executors](../rstack-executors/SKILL.md) or [shared MCP](../rstack-mcp/SKILL.md) only when those lifecycles are in scope.

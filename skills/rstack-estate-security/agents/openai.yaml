@@ -1,0 +1,4 @@
+interface:
+  display_name: "RStack estate security"
+  short_description: "Bound account and device security claims"
+  default_prompt: "Use $rstack-estate-security to complete the scoped task with evidence and current authority."

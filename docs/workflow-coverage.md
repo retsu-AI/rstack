@@ -1,6 +1,6 @@
 # Operating practice coverage
 
-Rstack groups recurring engineering decisions into eight reusable skills. It preserves the original request and current authority without requiring a long copied rule catalog.
+Rstack groups recurring engineering decisions into fifteen reusable skills. It preserves the original request and current authority without requiring a long copied rule catalog.
 
 | Decision | Practice | Reference |
 |---|---|---|

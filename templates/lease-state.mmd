@@ -1,0 +1,5 @@
+flowchart LR
+  Connected["Connected, generation n"] -->|disconnect increments generation| Disconnected["Disconnected, generation n+1"]
+  Disconnected -->|reconnect keeps generation| Reconnected["Connected, generation n+1"]
+  Reconnected -->|old token n rejected| Unchanged["State unchanged"]
+  Reconnected -->|current token n+1 eligible| Applied["Authorized operation may proceed"]

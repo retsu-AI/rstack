@@ -10,3 +10,5 @@ Read [checkpoints](../../docs/checkpoints.md). Compare prior/current UTC times a
 Answer the user's check-in directly, then continue the current authorized unit. Diagnose a stale interval from evidence without interrupting or replacing active owners. Stop unchanged polling with a concrete resumption trigger.
 
 Update [the existing checklist](../../docs/execution-plan.md) with separate implemented, independently verified, integrated and accepted states. Retain exact revision/evidence, pending findings and correction budget. FAIL, BLOCKED, NOT OBSERVED and NOT RUN never become PASS because a turn ended or a timestamp changed.
+
+For evidence of model adoption, current automation worthiness and actual execution rather than metadata activity, use the relevant section of [workflow qualification](../../docs/workflow-qualification.md).

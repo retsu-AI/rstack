@@ -1,0 +1,4 @@
+interface:
+  display_name: "RStack shared MCP"
+  short_description: "Qualify MCP client isolation and reconnect"
+  default_prompt: "Use $rstack-mcp to complete the scoped task with evidence and current authority."

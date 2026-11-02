@@ -1,0 +1,4 @@
+interface:
+  display_name: "RStack shared executors"
+  short_description: "Qualify shared job capacity and recovery"
+  default_prompt: "Use $rstack-executors to complete the scoped task with evidence and current authority."

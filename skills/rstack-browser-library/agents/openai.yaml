@@ -1,0 +1,4 @@
+interface:
+  display_name: "RStack browser library"
+  short_description: "Curate tabs and bookmarks with coverage"
+  default_prompt: "Use $rstack-browser-library to complete the scoped task with evidence and current authority."

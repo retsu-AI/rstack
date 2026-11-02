@@ -1,0 +1,4 @@
+interface:
+  display_name: "RStack mailbox rules"
+  short_description: "Verify mail triage and arrival behavior"
+  default_prompt: "Use $rstack-mail to complete the scoped task with evidence and current authority."

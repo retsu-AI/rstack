@@ -14,3 +14,5 @@ Use [per-part and final manager verification](../../docs/execution-plan.md), wit
 - [Pele diagrams](../../docs/diagrams.md) for source/rendering provenance and structural versus pixel coverage.
 - [Lean, optional Aristotle and Verus](../../docs/formal-verification.md) for specification, assumptions, checked claims and trust boundaries. Credentials or proof output alone do not authorize remote runs or establish runtime behavior.
 - [Model and harness benchmarks](../../docs/benchmarks.md) for isolated held-out tasks, fixed comparisons, independent grading and paid-run budgets.
+
+For rejecting grader controls, causal/live evidence, actual transport, finite static adjudication and replicated reviews, select the relevant section of [workflow qualification](../../docs/workflow-qualification.md). Use [the formal architecture example](../../docs/formal-architecture-example.md) to connect diagram/model obligations with implementation evidence.

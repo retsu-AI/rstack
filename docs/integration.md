@@ -1,6 +1,6 @@
 # Use rstack with an agent
 
-Clone this repository into a location the agent can read. The canonical entrypoint is `skills/rstack/SKILL.md`; the router links to the seven workflow leaves. The repository also includes `.agents/skills/<name>` links for hosts that support repository-local skill discovery. Other agents can read the canonical files directly.
+Clone this repository into a location the agent can read. The canonical entrypoint is `skills/rstack/SKILL.md`; the router links to fourteen workflow leaves. The repository also includes `.agents/skills/<name>` links for hosts that support repository-local skill discovery. Other agents can read the canonical files directly.
 
 Ask the agent to read `skills/rstack/SKILL.md` and the relevant leaf before working on an authorized engineering outcome. Keep the existing owner, outcome register, scope, acceptance conditions and stop gates. Reading a skill grants no new tool access or external authority.
 
